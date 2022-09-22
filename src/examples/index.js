@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal } from '../lib';
+import Modal from '../lib/component/ModalLibrary';
 
 const ModalExample = () => {
 	const [showModal, setShowModal] = useState(false);
@@ -8,8 +8,8 @@ const ModalExample = () => {
 		setShowModal(true);
 	};
 	return (
-		<div>
-			index
+		<main>
+			<h1>Test ModalLibrary</h1>
 			<button onClick={show}>Click</button>
 			{showModal ? (
 				<Modal
@@ -17,7 +17,7 @@ const ModalExample = () => {
 					setShowModal={setShowModal}
 					content='hihihi'></Modal>
 			) : null}
-		</div>
+		</main>
 	);
 };
 export default ModalExample;
