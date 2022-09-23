@@ -34,7 +34,7 @@ const ModalExample = () => {
 				<Modal
 					showModal={showModal}
 					setShowModal={setShowModal}
-					content='hihihi'></Modal>
+					content='Add your text'></Modal>
 			) : null}
 		</main>
 	);
