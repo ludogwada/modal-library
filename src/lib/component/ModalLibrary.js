@@ -21,7 +21,7 @@ const Modal = (props) => {
 		<>
 			{props.showModal ? (
 				<section className='container-modal'>
-					<div className={props.modal}>
+					<div className={props.modalStyle}>
 						<span className={props.textStyle}>{props.content}</span>
 						<button
 							className='modal-cross'

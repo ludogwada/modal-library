@@ -1,0 +1,30 @@
+.container-modal {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0%;
+	background-color: rgba(17, 5, 5, 0.5);
+}
+
+.modal-cross {
+	position: absolute;
+	right: 10%;
+	cursor: pointer;
+	border-radius: 50%;
+	font-size: 20px;
+	border-width: 1px;
+}
+
+.modal-cross:hover,
+.modal-cross:focus {
+	background-color: #52b2cc;
+}
+
+.showModal {
+	visibility: visible;
+}
+.hideModal {
+	visibility: hidden;
+}

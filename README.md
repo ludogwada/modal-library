@@ -34,7 +34,7 @@ const ModalExample = () => {
 			<button onClick={show}>Click</button>
 			{showModal ? (
 				<Modal
-					classeName='modal'
+					modalStyle='modal'
 					textStyle='text'
 					showModal={showModal}
 					setShowModal={setShowModal}
