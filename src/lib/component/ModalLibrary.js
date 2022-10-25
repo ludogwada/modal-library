@@ -21,8 +21,8 @@ const Modal = (props) => {
 		<>
 			{props.showModal ? (
 				<section className='container-modal'>
-					<div className='modal'>
-						<span className='modal-text'>{props.content}</span>
+					<div className={props.modal}>
+						<span className={props.textStyle}>{props.content}</span>
 						<button
 							className='modal-cross'
 							aria-label='Close modal'

@@ -1,6 +1,6 @@
 {
   "name": "modal-library-ludogwada",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "author": "@ludogwada",
   "main": "dist/index.js",
   "module": "dist/index.js",
