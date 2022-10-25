@@ -14,9 +14,9 @@ const Modal = props => {
   return /*#__PURE__*/React.createElement(React.Fragment, null, props.showModal ? /*#__PURE__*/React.createElement("section", {
     className: "container-modal"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "modal"
+    className: props.modal
   }, /*#__PURE__*/React.createElement("span", {
-    className: "modal-text"
+    className: props.textStyle
   }, props.content), /*#__PURE__*/React.createElement("button", {
     className: "modal-cross",
     "aria-label": "Close modal",
