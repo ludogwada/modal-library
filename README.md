@@ -1,7 +1,9 @@
+
 # Modal-library-ludogwada
 
-A library of React components.
 
+
+A library of React components.
 ## Installation
 
 Install modal-library with npm
@@ -9,10 +11,19 @@ Install modal-library with npm
 ```bash
   npm install modal-library-ludogwada
 ```
+    
+## Badges
 
-## Authors
 
-- @Ludogwada](https://www.github.com/ludogwada)
+
+![made-with-create-react-app](https://user-images.githubusercontent.com/75996200/162953332-33d7bd5c-9534-48f7-98e6-62a9be776271.svg)
+
+
+## Prerequisites
+
+- [NodeJS](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+
 
 ## Usage/Examples
 
@@ -45,8 +56,8 @@ const ModalExample = () => {
 };
 export default ModalExample;
 ```
-
 ```
+
 css
 .modal {
 	display: flex;
@@ -66,3 +77,18 @@ css
 	color: black;
 }
 ```
+
+
+## Props
+|Label|Type|Required|Default|
+|:----|:----:|:------:|:----:|
+|modalStyle| string | Yes | N/A |
+|textStyle| string | No | N/A |
+|showModal| boolean |Yes | 'false' |
+|setShowModal| hook | Yes | N/A |
+|content| string | yes | N/A |
+
+## Authors
+
+- @Ludogwada](https://www.github.com/ludogwada)
+

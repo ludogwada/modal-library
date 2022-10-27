@@ -1,6 +1,6 @@
 {
   "name": "modal-library-ludogwada",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "author": "@ludogwada",
   "description": "React customizable Modal plugin",
   "main": "dist/index.js",
