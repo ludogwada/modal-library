@@ -3,7 +3,7 @@
   "version": "0.1.10",
   "author": "@ludogwada",
   "description": "React customizable Modal plugin",
-  "main": "dist/index.js",
+  "main": "index.js",
   "module": "dist/index.js",
   "keywords": [
     "react",
@@ -37,5 +37,17 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
