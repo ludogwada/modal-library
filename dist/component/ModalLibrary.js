@@ -1,7 +1,13 @@
 import React, { useCallback, useEffect } from 'react';
 import './ModalLibrary.css';
+/**
+ * Modal
+ * @param {*} props
+ * @returns Modal component
+ */
 
 const Modal = props => {
+  // function that closes the modal when 'escape' is pressed
   const keyPress = useCallback(e => {
     if (e.key === 'Escape' && props.showModal) {
       props.setShowModal(false);
